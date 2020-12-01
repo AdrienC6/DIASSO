@@ -4,3 +4,8 @@
     transform : scale(1.075);
 }
 
+header {
+    background : #004693;
+    height : 50px;
+    
+}

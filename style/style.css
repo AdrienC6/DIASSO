@@ -5,21 +5,17 @@ html {
 body {
     font-size : 14px;
 }
-
 h1 {
     font-size : 1.2rem;
 }
-
 h4 {
     font-size : 1.1rem;
 }
-
 small {
     font-style : italic;
     font-size : 0.8rem;
     line-height: 1px;
 }
-
 @media screen and (min-width : 992px) {
     h1 {
         font-size : 2rem;
@@ -38,7 +34,11 @@ small {
     h4 {
         font-size : 1.3rem;
     }
+    footer p {
+        font-size : 2rem;
+    }
 }
+
 /* NAVBAR */
 
 #nav {
@@ -47,11 +47,9 @@ small {
     width : 100%;
     top : 0;
 }
-
 .nav-link:hover {
     font-weight : 600;
 }
-
 
 /* CAROUSEL */
 
@@ -64,8 +62,6 @@ small {
 #presentation {
     background : #fff;
 }
-
-
 #title {
     background : #004693;
     color : #fff;
@@ -73,13 +69,25 @@ small {
     align-items: center;
     margin-top : 100px;
 }
-
 #events {
     background : #004693;
     color : #fff;
 }
-
 #mission > li {
     font-weight : 600;
     padding-bottom : 10px;
 }
+article img {
+    display : block;
+    margin : auto;
+    margin-bottom : 10px;
+    width : 100%;
+    position : relative;
+}
+
+/* EVENTS */
+
+.card-img {
+    filter : grayscale(1);
+}
+

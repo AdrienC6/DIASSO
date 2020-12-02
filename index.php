@@ -10,13 +10,9 @@
 </head>
 <body>
 
-    <!--START HEADER-->
-    
-    <!--END HEADER-->
-
     <!--START NAVBAR-->
     <?php
-    require_once 'nav.php'
+      require_once 'nav.php'
     ?>
     <!--END NAVBAR-->
 
@@ -58,30 +54,30 @@
             <div class="col-12 col-lg-6" id="presentation">
               <article id="presentationTitle">
                   <h2 class="h5 text-center pt-3">Qui sommes-nous ?</h2>
-                <hr>
+                  <hr>
                   <p class="text-center">
                     L'association <b>DIASSO</b> se mobilise chaque jour pour promouvoir l'accès au soin en Afrique, notamment pour lutter contre le diabète.<br><br>
                     Cette pathologie chronique représente un véritable fléau pour ce continent. C'est pourquoi <b>DIASSO</b> intervient directement auprès des malades pour leur apporter l'aide nécessaire à ce combat.<br><br>
                   </p>
-                  <h4 class="text-center text-muted">Notre mission s'organise autour de trois axes :</h4>
+                  <h4 class="text-center text-muted mt-5">Notre mission s'organise autour de trois axes :</h4>
                   
                   <ul id="mission"class="mx-auto" >
                       <hr>  
                       <li>
                         <h5>Formation : </h5>
                         <p class="text-muted">Nous formons les gens à gérer leur diabète au quotidien grâce à une équipe médicale dédiée.</p>
-                        <hr>
                       </li>
+                      <hr>
                       <li>
                         <h5>Education : </h5>
                         <p class="text-muted">Nous apprenons aux diabétiques qu'il ne s'agit pas d'une fatalité et que l'on peut très bien vivre avec.</p>
-                        <hr>
                       </li>
+                      <hr>
                       <li>
                       <h5>Mise en autonomie : </h5>
                         <p class="text-muted">Il est essentiel qu'ils puissent, à terme, gérer par eux-mêmes leur pathologie.</p>
                       </li>
-                    </ul>
+                  </ul>
               </article>
             </div>
 
@@ -89,20 +85,21 @@
               <article id="eventsTitle">
                   <h2 class="h5 text-center pt-3">Evènements</h2>
                   <hr class="bg-white">
+                  <img class="rounded" src="images/father-son.jpg">
                   <p class="text-center">
                     Chaque année, nous organisons divers évènements en France afin de représenter notre association, de sensibiliser la population à la nécessité des soins en Afrique et de récolter des fonds pour financer nos opérations.<br><br>
                     Pour assister à l'un de nos évènements il est impératif de nous <a href="contact.php">contacter</a> en amont.</p>
                   </p>
                   <button class="btn btn-light btn-block mt-4 mb-4"><a href="events.php">Calendrier</a></button>
-              </article>
+                  
+                </article>
+              
             </div>
             </div>
           </div>
         </div>
     <!--END CONTENT-->
 
-    <!--START FOOTER-->
-    <!--END FOOTER-->
     
 </body>
 

@@ -56,7 +56,7 @@
           
           <div class="row justify-content-center">
             <div class="col-12 col-lg-6" id="presentation">
-              <div id="presentationTitle">
+              <article id="presentationTitle">
                   <h2 class="h5 text-center pt-3">Qui sommes-nous ?</h2>
                 <hr>
                   <p class="text-center">
@@ -78,18 +78,18 @@
                       </li>
                     </ul>
                   </p>
-              </div>
+              </article>
             </div>
 
             <div class="col-12 col-lg-6" id="events">
-              <div id="eventsTitle">
+              <article id="eventsTitle">
                   <h2 class="h5 text-center pt-3">Evènements</h2>
                   <p class="text-center">
                     Chaque année, nous organisons divers évènements en France afin de représenter notre association, de sensibiliser la population à la nécessité des soins en Afrique et de récolter des fonds pour financer nos opérations.<br><br>
                     Pour assister à l'un de nos évènements il est impératif de nous <a href="contact.php">contacter</a> en amont.</p>
                   </p>
                   <button class="btn btn-light btn-block mt-4"><a href="events.php">Calendrier</a></button>
-              </div>
+              </article>
             </div>
             </div>
           </div>

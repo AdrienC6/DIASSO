@@ -20,8 +20,8 @@
     <!--END NAVBAR-->
 
     <!--START CONTENT-->
-        <div class="container-fluid">
-          <div class="row justify-content-center mb-3" id="title">
+        <div class="container-fluid bg-dark">
+          <div class="row justify-content-center" id="title">
             <div class="col-12" >
               <h1 class="text-center">DIASSO : Faciliter la vie du diabétique en Afrique</h1>
             </div>
@@ -58,14 +58,26 @@
             <div class="col-12 col-lg-6" id="presentation">
               <div id="presentationTitle">
                   <h2 class="h5 text-center pt-3">Qui sommes-nous ?</h2>
-
+                <hr>
                   <p class="text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    L'association DIASSO se mobilise chaque jour pour promouvoir l'accès au soin en Afrique, notamment pour lutter contre le diabète.<br><br>
+                    Cette pathologie chronique représente un véritable fléau pour ce continent. C'est pourquoi DIASSO intervient directement auprès des malades pour leur apporter l'aide nécessaire à ce combat.<br><br>
+                    Notre mission s'organise autour de trois axes :
+                    <ul id="mission" class="text-center" type="none">
+                      <li>
+                        <hr>
+                        Prévention
+                        <hr>
+                      </li>
+                      <li>
+                        Education 
+                        <hr>
+                      </li>
+                      <li>
+                        Autonomie
+                      </li>
+                    </ul>
                   </p>
-                  <blockquote class="blockquote text-right pb-2">
-                    <small class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</small>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
               </div>
             </div>
 
@@ -73,9 +85,10 @@
               <div id="eventsTitle">
                   <h2 class="h5 text-center pt-3">Evènements</h2>
                   <p class="text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    Chaque année, nous organisons divers évènements en France afin de représenter notre association, de sensibiliser la population à la nécessité des soins en Afrique et de récolter des fonds pour financer nos opérations.<br><br>
+                    Pour assister à l'un de nos évènements il est impératif de nous <a href="contact.php">contacter</a> en amont.</p>
                   </p>
-                  <button class="btn btn-light btn-block"><a href="events.php">Calendrier</a></button>
+                  <button class="btn btn-light btn-block mt-4"><a href="events.php">Calendrier</a></button>
               </div>
             </div>
             </div>

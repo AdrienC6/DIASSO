@@ -100,7 +100,7 @@
                     <img src="images/event2.jpg" class="card-img-top card-img" alt="...">
                     <hr>
                     <p>DIASSO a besoin de vous !<br><br>
-                    Pour lutter contre le diabète en Afrique, nous avons besoin de moyens financiers, humains...<br><br>
+                    Pour lutter contre le diabète en Afrique, nous avons besoin de moyens financiers, humains... de vous!<br><br>
                     Aujourd'hui l'association organise son premier gala de donnation. Si vous souhaitez oeuvrer pour cette cause, nous vous invitons à y participer.
                     </p>
                     <hr>

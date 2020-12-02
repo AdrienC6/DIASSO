@@ -36,20 +36,20 @@
                       </select>
                   </div>
                   <div class="form-group">
-                      <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom">
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" required>
                   </div>
                   <div class="form-group">
-                      <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom">
+                      <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom" required>
                   </div>
                   <div class="form-group">
-                      <input type="mail" id="email" name="email" class="form-control" placeholder="Votre adresse email">
+                      <input type="mail" id="email" name="email" class="form-control" placeholder="Votre adresse email" required>
                   </div>
                   <div class="form-group">
-                      <input type="phone" id="phone" name="phone" class="form-control" placeholder="Votre numéro de téléphone">
+                      <input type="phone" id="phone" name="phone" class="form-control" placeholder="Votre numéro de téléphone" required>
                   </div>
 
                   <div class="form-group">
-                      <textarea rows="6" name="message" placeholder="Votre message" class="form-control"></textarea>
+                      <textarea rows="6" name="message" placeholder="Votre message" class="form-control" required></textarea>
                   </div>
                   <button type="submit" class="btn btn-light btn-block shadow mb-4">Envoyer</button>
                   <p class="text-center mb-4 text-muted">Disclaimer : ce formulaire de contact est factice</p>

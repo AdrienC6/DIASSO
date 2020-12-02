@@ -37,6 +37,10 @@ small {
     footer p {
         font-size : 2rem;
     }
+    .card:hover {
+        transform: scale(1.05);
+    }
+    
 }
 
 /* NAVBAR */
@@ -90,4 +94,5 @@ article img {
 .card-img {
     filter : grayscale(1);
 }
+
 

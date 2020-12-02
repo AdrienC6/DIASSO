@@ -27,7 +27,6 @@
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
               <div class="carousel-container mx-auto">
                 <div id="carousel" class="carousel slide mx-auto" data-ride="carousel">
                   <div class="carousel-inner">
@@ -52,7 +51,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          
           
           <div class="row justify-content-center">
             <div class="col-12 col-lg-6" id="presentation">
@@ -88,7 +87,7 @@
                     Chaque année, nous organisons divers évènements en France afin de représenter notre association, de sensibiliser la population à la nécessité des soins en Afrique et de récolter des fonds pour financer nos opérations.<br><br>
                     Pour assister à l'un de nos évènements il est impératif de nous <a href="contact.php">contacter</a> en amont.</p>
                   </p>
-                  <button class="btn btn-light btn-block mt-4"><a href="events.php">Calendrier</a></button>
+                  <button class="btn btn-light btn-block mt-4 mb-4"><a href="events.php">Calendrier</a></button>
               </article>
             </div>
             </div>

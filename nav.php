@@ -13,7 +13,7 @@
                         <a class="nav-link" href="index.php#presentation">Qui sommes-nous ?</a>
                     </li>
                     <li class="nav-item pl-3 pr-3">
-                        <a class="nav-link" href="index.php#events">Evènements</a>
+                        <a class="nav-link" href="events.php">Evènements</a>
                     </li>
                     <li class="nav-item pl-3 pr-3">
                         <a class="nav-link" href="contact.php">Contact</a>

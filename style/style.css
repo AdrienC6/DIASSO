@@ -4,8 +4,24 @@
     transform : scale(1.075);
 }
 
+
+nav {
+    position : fixed;
+}
 header {
     background : #004693;
-    height : 50px;
+    height : 20px;
     
+}
+
+
+/* CAROUSEL */
+
+.container-fluid {
+    background : #004693;
+
+}
+
+.carousel-pic {
+    filter : grayscale(1);
 }

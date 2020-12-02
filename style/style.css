@@ -1,5 +1,7 @@
 /* GENERAL */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-size : 14px;
 }
@@ -12,11 +14,21 @@ h1 {
     h1 {
         font-size : 2rem;
     }
+    p {
+        padding-left : 10px;
+        padding-right : 10px;
+    }
+    blockquote {
+        padding-right : 10px;
+    }
 }
 /* NAVBAR */
 
-nav {
+#nav {
     position : fixed;
+    z-index: 999;
+    width : 100%;
+    top : 0;
 }
 
 .nav-link:hover {
@@ -33,9 +45,18 @@ nav {
 /* CONTENT */
 
 #presentation {
-    background : lightpink;
+    background : #fff;
+}
+
+#title {
+    background : #004693;
+    color : #fff;
+    height : 50px;
+    align-items: center;
+    margin-top : 100px;
 }
 
 #events {
-    background : lightgreen;
+    background : #004693;
+    color : #fff;
 }

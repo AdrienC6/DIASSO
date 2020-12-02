@@ -14,38 +14,16 @@
     <!--END HEADER-->
 
     <!--START NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <img class="navbar-brand"src="images/logo.PNG" height="80px">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item pl-3 pr-3">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item pl-3 pr-3">
-                        <a class="nav-link" href="events.html">Qui sommes-nous ?</a>
-                    </li>
-                    <li class="nav-item pl-3 pr-3">
-                        <a class="nav-link" href="events.html">Evènements</a>
-                    </li>
-                    <li class="nav-item pl-3 pr-3">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
-
-        </nav>
+    <?php
+    require_once 'nav.php'
+    ?>
     <!--END NAVBAR-->
 
     <!--START CONTENT-->
         <div class="container-fluid">
-          <div class="row justify-content-center mb-3">
-            <div class="col-12">
-              <h1 class="text-center bg-white">DIASSO : Faciliter la vie du diabétique en Afrique</h1>
+          <div class="row justify-content-center mb-3" id="title">
+            <div class="col-12" >
+              <h1 class="text-center">DIASSO : Faciliter la vie du diabétique en Afrique</h1>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -79,23 +57,27 @@
           <div class="row justify-content-center">
             <div class="col-12 col-lg-6" id="presentation">
               <div id="presentationTitle">
-                  <h2 class="h5 text-center">Qui sommes-nous ?</h2>
+                  <h2 class="h5 text-center pt-3">Qui sommes-nous ?</h2>
 
-                  <p>
+                  <p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   </p>
-                  <!-- <blockquote class="blockquote text-right">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <blockquote class="blockquote text-right pb-2">
+                    <small class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</small>
                     <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote> -->
+                  </blockquote>
               </div>
             </div>
 
             <div class="col-12 col-lg-6" id="events">
-              <div class="eventsTitle">
-                  <h2 class="h5 text-center">Evènements</h2>
-                  <p>
+              <div id="eventsTitle">
+                  <h2 class="h5 text-center pt-3">Evènements</h2>
+                  <p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   </p>
+                  <button class="btn btn-light btn-block"><a href="events.php">Calendrier</a></button>
               </div>
+            </div>
             </div>
           </div>
         </div>

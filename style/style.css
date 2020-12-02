@@ -10,6 +10,10 @@ h1 {
     font-size : 1.2rem;
 }
 
+h4 {
+    font-size : 1.1rem;
+}
+
 small {
     font-style : italic;
     font-size : 0.8rem;
@@ -29,6 +33,10 @@ small {
     }
     small {
         font-size : 1rem;
+    }
+
+    h4 {
+        font-size : 1.3rem;
     }
 }
 /* NAVBAR */

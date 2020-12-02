@@ -1,27 +1,41 @@
-/* NAVBAR */
+/* GENERAL */
 
-.nav-link:hover {
-    transform : scale(1.075);
+body {
+    font-size : 14px;
 }
 
+h1 {
+    font-size : 1.2rem;
+}
+
+@media screen and (min-width : 992px) {
+    h1 {
+        font-size : 2rem;
+    }
+}
+/* NAVBAR */
 
 nav {
     position : fixed;
 }
-header {
-    background : #004693;
-    height : 20px;
-    
+
+.nav-link:hover {
+    font-weight : 600;
 }
 
 
 /* CAROUSEL */
 
-.container-fluid {
-    background : #004693;
-
-}
-
 .carousel-pic {
     filter : grayscale(1);
+}
+
+/* CONTENT */
+
+#presentation {
+    background : lightpink;
+}
+
+#events {
+    background : lightgreen;
 }

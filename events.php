@@ -80,6 +80,8 @@
                     <p>Date : Lundi 11 Janvier 2021</p>
                     <p>Heure : 11h à 13h</p>
                     <p>Lieu : Centre de congrès, Lyon</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22263.541691545062!2d4.843878189916577!3d45.77233835174125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x601302e66888357d!2sCentre%20de%20Congr%C3%A8s%20de%20Lyon!5e0!3m2!1sfr!2sfr!4v1607110739336!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <br><br>
                     <p>Modalités d'accès : <a href="contact.php">Nous contacter</a></p>
 
                 </div>
@@ -107,6 +109,7 @@
                     <p>Date : Mercredi 20 Janvier 2021</p>
                     <p>Heure : 18h à 21h</p>
                     <p>Lieu : Hôpital Necker, Paris</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.647191624203!2d2.3125157155545213!3d48.84586797928615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6703221308f89%3A0x57a7e5b303e7d9!2sH%C3%B4pital%20Necker%20AP-HP!5e0!3m2!1sfr!2sfr!4v1607110890732!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    <br><br>
                     <p>Modalités d'accès : <a href="contact.php">Nous contacter</a></p>
 
                 </div>

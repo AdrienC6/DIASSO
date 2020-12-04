@@ -26,7 +26,7 @@
           <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-4" >
               <form action="" method="POST">
-              <div class="form-group">
+                  <div class="form-group">
                       <label for="subject">L'objet de votre demande</label>
                       <select name="subject" size="1" id="subject" class="form-control">
                           <option>Participer à un évènement</option>

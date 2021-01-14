@@ -99,3 +99,20 @@ iframe {
     width : 100%;
 }
 
+/* FOOTER */
+
+#footer, #footer a, #footer a:hover {
+    background : #525252;
+    color : #fff;
+    text-decoration: none;
+}
+
+#footer {
+    border-top : 2px solid #fff;
+    max-width : 100vw;
+}
+
+.social {
+    max-height : 28px;
+    max-width :28px;
+}

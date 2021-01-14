@@ -5,10 +5,10 @@
 
     <div class="contact col-12 col-lg-6">
         <p>Nous découvrir sur les réseaux sociaux</p>
-        <div class="row mb-3">
-            <div class="col-4"><a href="#"><img src="images/social/facebook.png" class="social"></a></div>
-            <div class="col-4"><a href="#"><img src="images/social/instagram.png" class="social"></a></div>
-            <div class="col-4"><a href="#"><img src="images/social/twitter_cloud.png" class="social"></a></div>
+        <div class="row mb-3 justify-content-center">
+            <div class="col-3"><a href="#"><img src="images/social/facebook.png" class="social"></a></div>
+            <div class="col-3"><a href="#"><img src="images/social/instagram.png" class="social"></a></div>
+            <div class="col-3"><a href="#"><img src="images/social/twitter_cloud.png" class="social"></a></div>
         </div>
     </div>
 </div>
